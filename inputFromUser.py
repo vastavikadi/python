@@ -7,7 +7,7 @@ print(a)
 b = input('Enter a number to add to another number: ')
 c = input("Enter a number to add to the first number: ")
 
-b = int(b)
+b = int(b) # if we had not converted into int then the string would have been concatenated and we would have got like 1+5 = 15
 c = int (c)
 
-print('The sum is: ',b+c)
+print('The sum is: ', b+c)
