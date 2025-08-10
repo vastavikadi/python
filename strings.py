@@ -9,3 +9,7 @@ print(a)
 print(a[0:3]) # this will print the first three characters of the string (excluding the character at index 3)
 print(a[3:]) # this will print the string from the fourth character to the end
 print(a[:4]) # this will print the string from the beginning to the fourth character
+
+# negative slicing done using the right side indexing
+print(a[-1]) # this will print the last character of the string
+print(a[-4:-1]) # this will print the string from the fourth last character to the second last character
