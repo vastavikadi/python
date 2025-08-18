@@ -29,3 +29,8 @@ print("hey".title())
 # str.strip([chars]) → Remove from both ends.
 # str.lstrip([chars]) → Remove from left.
 # str.rstrip([chars]) → Remove from right.
+
+
+# escape sequence characters: \n , \t 
+# using this we can print double quotes too
+print("Hey it's a \"boy\"")
