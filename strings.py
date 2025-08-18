@@ -13,3 +13,15 @@ print(a[:4]) # this will print the string from the beginning to the fourth chara
 # negative slicing done using the right side indexing
 print(a[-1]) # this will print the last character of the string
 print(a[-4:-1]) # this will print the string from the fourth last character to the second last character
+
+print(a[-4:-1]) # excludes the character at index -1
+print(a[1:4]) # this will print the string from the second character to the fourth character (excluding the character at index 4)
+print(a[0:3]) # this will print the first three characters of the string (excluding the character at index 3)
+
+
+# skip value in the string
+print(a[::2]) # this will print every second character of the string
+print(a[1::2]) # this will print every second character of the string starting from the second character
+print(a[1:7:2]) # this will print every second character of the string starting from the second character to the seventh character (excluding the character at index 7)
+print(a[0:7:2]) # this will print every second character of the string from the beginning to the seventh character (excluding the character at index 7)
+print(a[0:8:2]) # this will print every second character of the string from the beginning to the last (including index 7) 
