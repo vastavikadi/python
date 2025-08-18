@@ -25,3 +25,15 @@ print(a[1::2]) # this will print every second character of the string starting f
 print(a[1:7:2]) # this will print every second character of the string starting from the second character to the seventh character (excluding the character at index 7)
 print(a[0:7:2]) # this will print every second character of the string from the beginning to the seventh character (excluding the character at index 7)
 print(a[0:8:2]) # this will print every second character of the string from the beginning to the last (including index 7) 
+
+
+name = input("Enter your name: ")
+print(f"This is name your name {name}") #kinda template literal in js
+
+
+letter = '''Hey Name,
+this is the Date'''
+
+print(letter.replace("Name", "Adi").replace("Date", "26 Aug, 2005")) # chaining of the replace method
+# strings are immutable and original remains the same
+
